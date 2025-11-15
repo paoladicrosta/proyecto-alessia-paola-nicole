@@ -13,6 +13,9 @@ Aplicación en Python que calcula el peso total, momentos y centro de gravedad (
 
 ## 📁 Estructura
 /data → Datos del Cessna 172
+
 /src → Código fuente
+
 /tests → Pruebas
+
 /docs → Documentación
