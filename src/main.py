@@ -32,9 +32,9 @@ def main():
     print(f"Centro de Gravedad (CG): {cg:.2f} in")
 
     if calc.validate_cg(cg):
-        print("✅ El avión está dentro de los límites de seguridad.")
+        print("El avión está dentro de los límites de seguridad.")
     else:
-        print("❌ PELIGRO: el CG está fuera de los límites.")
+        print("PELIGRO: el CG está fuera de los límites.")
 
 if __name__ == "__main__":
     main()
