@@ -8,10 +8,10 @@ Proyecto realizado por:
 - Alessia Colucci
 - Nicole Rodríguez
 
-## 📌 Descripción
+## Descripción
 Aplicación en Python que calcula el peso total, momentos y centro de gravedad (CG) del Cessna 172, verificando si está dentro de los límites de seguridad para un vuelo seguro.
 
-## 📁 Estructura
+## Estructura
 /data → Datos del Cessna 172
 
 /src → Código fuente
