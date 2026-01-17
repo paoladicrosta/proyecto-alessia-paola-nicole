@@ -1,17 +1,20 @@
 {
-  "aircraftModel": "Cessna 172",
-  "maxWeightKg": 1111,
-  "cgLimits": {
-    "forward": 35,
-    "aft": 47
+  "aircraftModel": "Cessna 172N",
+  "maxWeightLb": 2300,
+  "taxiDeduction": {
+    "weight": -7.0,
+    "moment": -0.3
+  },
+  "baggageLimits": {
+    "area1": 120.0,
+    "area2": 50.0,
+    "combined": 120.0
   },
   "stations": [
-    { "name": "Pilot + Copilot", "arm": 37 },
-    { "name": "Passengers Rear", "arm": 73 },
-    { "name": "Baggage Area", "arm": 95 },
-    { "name": "Fuel Tanks", "arm": 48 }
-  ],
-  "fuel": {
-    "densityKgPerL": 0.72
-  }
+    { "name": "Pilot + Front Passenger", "arm": 37.0, "type": "payload" },
+    { "name": "Rear Passengers", "arm": 73.0, "type": "payload" },
+    { "name": "Baggage Area 1", "arm": 95.0, "type": "payload" },
+    { "name": "Baggage Area 2", "arm": 123.0, "type": "payload" },
+    { "name": "Fuel Tanks", "arm": 48.0, "type": "fuel" }
+  ]
 }
